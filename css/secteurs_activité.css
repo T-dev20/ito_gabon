@@ -1,0 +1,28 @@
+.lead {
+  margin-top: 45px;
+  margin-bottom: 65px;
+  color: #999;
+}
+.course-br {
+  border: 1px solid #4babb1;
+  padding: 15px;
+}
+.course-title > h2 {
+  margin: 15px 0;
+  padding: 0px;
+}
+h2 {
+  font-size: 22px;
+}
+.col-12 {
+  margin-bottom: 35px;
+}
+
+.course-meta-bot {
+  border: 1px solid #4babb1;
+  border-top: 0px;
+  padding: 15px;
+}
+.course-meta-bot p {
+  font-style: oblique;
+}

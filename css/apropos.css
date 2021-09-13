@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&family=Raleway:wght@300&display=swap");
+
+header {
+  background: url(/images/img-03.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.navbar-nav {
+  font-family: "Rubik", sans-serif;
+}
+.nav--about {
+  margin-bottom: 20px;
+}
+.apreLeHeader {
+  background: url(/images/banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 45px;
+  padding-bottom: 25px;
+  font-family: "Rubik", sans-serif;
+}
+.apreLeHeader h1 {
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.txt1_apropo {
+  display: inline-block;
+  font-size: 13.5px;
+  height: 15px;
+  font-weight: normal;
+}
+
+.section_historique {
+  margin-top: -75px;
+}
+.section_historique h3 {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-weight: 560;
+  font-family: "Rubik", sans-serif;
+}
+.section_historique > p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #767676;
+  font-family: "Raleway", sans-serif;
+}
+.missionVisionHistoire_box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.inner-hmv {
+  padding: 15px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 10%);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+.icon-box-hmv {
+  font-size: 50px;
+  text-align: center;
+  color: #eea412;
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 25px;
+  border: rgba(23, 161, 183, 1) 3px solid;
+  border-radius: 6px;
+}
+
+@media all and (min-width: 768px) and (max-width: 1020px) {
+  .nav--about {
+    margin-bottom: 85px;
+  }
+  .section_historique {
+    margin-top: -125px;
+  }
+  .container_lastText {
+    margin-bottom: 85px;
+  }
+}
+@media all and (min-width: 1024px) and (max-width: 1300px) {
+  .apreLeHeader {
+    height: 35vh;
+    padding-top: 160px;
+  }
+  .txt1_apropo {
+    font-size: 16px;
+  }
+
+  .section_historique {
+    margin-top: -125px;
+  }
+  .section_historique h3 {
+    margin-top: 85px;
+    margin-bottom: 50;
+  }
+  .section_historique > p {
+    font-size: 20px;
+  }
+  .container_lastText {
+    margin-bottom: 85px;
+  }
+}
+@media all and (min-width: 1350px) {
+  .nav--about {
+    margin-bottom: 110px;
+  }
+  .apreLeHeader {
+    height: 60vh;
+    padding-top: 160px;
+  }
+  .txt1_apropo {
+    font-size: 16px;
+  }
+
+  .section_historique {
+    margin-top: -125px;
+  }
+  .section_historique h3 {
+    margin-top: 85px;
+    margin-bottom: 50;
+  }
+  .section_historique > p {
+    font-size: 20px;
+  }
+  .container_lastText {
+    margin-bottom: 85px;
+  }
+}

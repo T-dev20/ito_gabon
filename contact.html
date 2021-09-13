@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Lien BootStrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/apropos.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/secteurs_activité.css" />
+
+    <script
+      src="https://kit.fontawesome.com/aa5854860e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Site Metas -->
+    <title>ITO - Filières du secteur industriel</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <link rel="shortcut icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              src="images/logo_ito.png"
+              alt="logo_ito"
+              width="80"
+              height="70"
+          /></a>
+          <button
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            class="navbar-toggler"
+            data-target="#navbarSupportedContent"
+            data-toggle="collapse"
+            type="button"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse nav--about"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ml-auto navbar-nav--about">
+              <li class="nav-item active">
+                <a class="nav-link color-aqua-hover" href="index.html"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-aqua-hover" href="apropos.html"
+                  >À propos</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdown-a"
+                  data-toggle="dropdown"
+                  >Nos filières</a
+                >
+                <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                  <a class="dropdown-item" href="tertiaire.html">Filières du Tertiaire </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="industrie.html"
+                    >Filières de l'Industrie
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-aqua-hover" href="#">Contactez-nous</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container-fluid apreLeHeader">
+      <div class="row">
+        <h1 class="col-12 text-center">
+          Contact<br /><span class="txt1_apropo"
+            >Besoin de plus d'informations ? N'hésitez pas à nous contacter.</span
+          >
+        </h1>
+      </div>
+    </section>
+
+      <div class="container">
+        <div class="section-title row text-center">
+          <div class="col-md-8 offset-md-2">
+            <p class="lead">
+              Si vous avez des question spécifiques vous pouvez soit nous contacter au <em>numéro</em> renseigné sur le site, soit nous envoyé un message via le formulaire de contact.
+            </p>
+          </div>
+        </div>
+        <!-- end title -->
+
+        </div><!-- end container -->       
+    
+        <div id="contact" class="section-contact">
+        <div class="container">
+            <div class="row">
+               <div class=" col-sm-12">
+                   <div class="contact_form">
+                       <div id="message"></div>
+                       <form action="" method="post" id="contactform">
+                           <div class="row row-fluid">
+                               <div class="col-lg-6 col-md-6 col-sm-6">
+                                   <input type="text" name="nom" id="nom" class="form-control" placeholder="Votre prénom">
+                               </div>
+                               <div class="col-lg-6 col-md-6 col-sm-6">
+                                   <input type="text" name="prenom" id="prenom" class="form-control" placeholder="Votre nom de famille">
+                               </div>
+                               <div class="col-lg-6 col-md-6 col-sm-6">
+                                   <input type="email" name="email" id="email" class="form-control" placeholder="Votre adresse mail">
+                               </div>
+                               <div class="col-lg-6 col-md-6 col-sm-6">
+                                   <input type="text" name="tel" id="tel" class="form-control" placeholder="Votre numéro de téléphone">
+                               </div>
+                               <div class="col-lg-6 col-md-6 col-sm-6">
+                                   <textarea name="message" rows="6" id="message" class="form-control" placeholder="Votre message..."></textarea>
+                               </div>
+                               <div class="text-center">
+                                   <button type="submit" value="SEND" id="submit" class="btn btn-ligth btn-radius btn-brd grd1 btn-block">Envoyer</button>
+                               </div>
+                           </div>
+                       </form>
+                   </div>
+               </div> 
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- footer -->
+    <footer class="footer layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <a href="index.html"
+              ><img
+                class="img_footer-responsive"
+                src="images/logo_ito.png"
+                alt="logo_ITO"
+                width="75px"
+                height="65px"
+            /></a>
+            <div class="footer_link_heading">
+              <div class="footer_menu margin_top_30">
+                <ul class="footer-links">
+                            <li><a href="mailto:#">ito-gabon@gmail.com</a></li>
+                            <li><a href="tel:241000000">+241 000000</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Awoungou, 18 032 Owendo, GABON</a></li>
+                        </ul><!-- end links -->
+              </div>
+            </div>
+          </div>
+            
+              <div class="col-md-4 col-sm-12">
+                <div class="footer_link_heading">
+                  <h3>LIENS UTILES</h3>
+                </div>
+                <div class="footer_menu">
+                  <ul class="footer-links footer-links--2">
+                            <li><a href="/index.html">Accueil</a></li>
+                            <li><a href="/apropos.html">À propos</a></li>
+                            <li><a href="/filiere.html">Formations</a></li>
+							              <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                    <div class="widget clearfix">
+                        <div class="footer_link_heading">
+                            <h3>À PROPOS DE NOUS</h3>
+                        </div>
+                        <p> 
+                          L'ITO est un institut supérieur qui a pour but la formation des étudiants dans les secteurs tertiaire et technologique. À la fin de leur formation, les étudiants reçoivent une attestation de diplôme du Brevet de Technicien Supérieur (BTS).
+                        </p>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+            </div>
+        </div>
+      </div>
+    </footer>
+    <div class="cpy">
+      <div class="container">
+        
+          <div class="col-md-12">
+            <p>Copyright 2021. Site créé par <a href="#">T.W.Development</a></p>
+          </div>
+      </div>
+    </div>
+    <!-- Fin_footer -->
+
+    <!-- Optional JavaScript -->
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+        
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+      
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
