@@ -732,7 +732,7 @@ footer h3 {
     background: none;
   }
   .carousel {
-    top: -218px; /* On remonte le carousel au niveau de la navigation */
+    top: -224px; /* On remonte le carousel au niveau de la navigation */
   }
   img[alt="logo_ito"] {
     width: 180px;
