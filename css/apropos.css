@@ -13,7 +13,7 @@ header {
   margin-bottom: 20px;
 }
 .apreLeHeader {
-  background: url(/images/banner.jpg) no-repeat;
+  background: url(images/banner.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 45px;
