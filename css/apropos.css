@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda+One&family=Raleway:wght@300&display=swap");
 
 header {
-  background: url(/images/img-03.jpg) no-repeat;
+  background: url(../images/img-03.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -13,7 +13,7 @@ header {
   margin-bottom: 20px;
 }
 .apreLeHeader {
-  background: url(images/banner.jpg) no-repeat;
+  background: url(../images/banner.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 45px;
